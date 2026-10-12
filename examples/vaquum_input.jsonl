@@ -1,0 +1,1 @@
+{"id":"FORMAT_VAQUUM","image_id":"local_vaquum","role":"vaquum","category":"mug","image_file":"images/local_scene.png","mask_file":"masks/local_mug_instances.npy","feature_file":"local_scene_mug.npz","source_ids":["source:local_scene"]}

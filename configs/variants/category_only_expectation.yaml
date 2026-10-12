@@ -1,0 +1,44 @@
+# Manuscript-based variant; optimizer values remain explicit reference choices.
+nmax: 100
+observation_heads: 3
+outer_folds: 5
+comparison: gsd
+constrained_decoder: true
+use_scene: false
+use_category: true
+checkpoint_policy: strict
+seeds:
+- 42
+- 43
+- 44
+seed: 42
+counting_dim: 512
+scene_dim: 512
+category_dim: 512
+joint_dim: 512
+head_hidden_dim: 128
+optimizer: adamw
+learning_rate: 0.001
+weight_decay: 0.0001
+batch_size: 64
+stage_a_epochs: 30
+stage_b_epochs: 30
+stage_c_epochs: 100
+patience: 10
+crps_weight: 0.1
+rating_epsilon: 0.0001
+initial_concentration: 10.0
+overflow_value: 101.0
+fold_seed: 2026
+validation_category_fraction: 0.2
+operators:
+- gray
+- blur
+- inpaint
+operator_probabilities:
+- 0.3333333333333333
+- 0.3333333333333333
+- 0.3333333333333333
+feature_variant: primary
+inference_operator: inpaint
+device: cpu

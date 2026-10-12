@@ -1,0 +1,1 @@
+{"id":"FORMAT_EXPECTATION_VALIDATION_ONLY","image_id":"local_scene","role":"human_expectation_validation","category":"chair","image_file":"images/local_target_removed_scene.png","image_is_target_removed":true,"feature_file":"local_removed_scene.npz"}

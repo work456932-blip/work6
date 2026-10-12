@@ -1,0 +1,2 @@
+{"id":"FORMAT_COUNTING_TRAIN","image_id":"counting_train","dataset":"FSC-style","role":"counting","partition":"train","category":"mug","image_file":"images/local_train.png","feature_file":"counting_train.npz","source_ids":["source:local_train"],"count":8}
+{"id":"FORMAT_COUNTING_VALIDATION","image_id":"counting_validation","dataset":"FSC-style","role":"counting","partition":"validation","category":"bottle","image_file":"images/local_validation.png","feature_file":"counting_validation.npz","source_ids":["source:local_validation"],"count":4}
